@@ -1,0 +1,21 @@
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+}
+
+.precio{
+    font-size: 6rem;
+    margin:0;
+}
+/* en vez de poner otro min width, se puede poner el minimo y el maximo juntos, entonces entre esos valores, va a aplicar el estilo que yo le defino, si quiero agregar otra condicion en vez de "and", uso una coma y lo agrego, para q funcione*/
+@media (min-width:600px) and (max-width:800px), (min-width:1200px) {
+    .oferta{
+        background-color: yellow;
+    }
+}
+/* @media (min-width:800px){
+    .oferta{
+        background-color: #00446e;
+    }
+} */

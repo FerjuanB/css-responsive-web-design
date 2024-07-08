@@ -1,0 +1,14 @@
+@media (min-width: 768px){ 
+    .oferta{
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 900px){ 
+    .oferta{
+        font-size: 4rem;
+    }
+}
+
+
+/*se c reo un snippet personalizado para agregar medias queries con las reglas que uno quiere, espcios y eso, hay que buscar en user snippets y luego css.json alli están las reglas que uno quiere configurar. 
