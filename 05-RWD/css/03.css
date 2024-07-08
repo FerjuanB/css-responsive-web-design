@@ -1,0 +1,19 @@
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    max-width: 60rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.precio{
+    font-size: 4rem;
+    margin: 0;
+}
+/*en mobile first usas min-width y en desktop first max-width; y además vas declarando los medias del "mas grande" al mas chico"*/
+@media (max-width:600px){
+.oferta{
+    max-width: 100%;
+}
+}
+
+/*de 0 a un maximo de 600 px aplica lo que esta declarado entre llaves*/ 

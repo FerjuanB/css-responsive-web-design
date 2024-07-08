@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/* Globales */
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    /* de esta manera las imagenes se van adaptando al tamaño de su contenedor*/
+}
+.nombre-sitio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nombre-sitio span{
+    color:#037bc0
+}
+.nav-container{
+    border-top: 1px solid #e1e1e1;
+
+}
+.nav-principal{
+    padding: 20px 0;    
+    display: flex;
+    flex-direction: row;
+    /* cuando tenemos flex dir = row justify content alinea horizontalmente;
+    y align items sirve para alinear verticalemente*/
+    justify-content: space-between;
+    height: 300px;
+}
+
+.hero{
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 550px;
+
+}
+
+/*CATEGORÍAS*/
+.listado-categorias{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 20px;
+}

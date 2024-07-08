@@ -1,0 +1,25 @@
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+}
+.precio{
+    margin: 0;
+    font-size: 4rem;
+}
+/*de 0 al minimo declarado ignora lo que escriba, pero superando eso, se aplica lo declarado en este minwitdh */
+@media (min-width:600px){
+    .oferta{
+        max-width: 40rem;
+        margin: 0 auto; /*para centrarlo */
+    }
+    .precio{
+        font-size: 2rem;
+    }
+}
+
+@media(min-width:800px){
+    .oferta{
+        max-width: 60rem;
+    }
+}
