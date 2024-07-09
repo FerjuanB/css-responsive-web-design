@@ -1,0 +1,11 @@
+/*snippet de codigo para las imagenes
+
+usar en todas las imagenes
+
+usando max-width para que la imagen no crezca más de sus tamaño natural y se vea bien, en el caso q sea de "200px"
+poniendo display:block dentro del snippet dado que las imagenes vienen con un pequeño margin-bottom y se elimina con ese block.-
+*/
+img{
+    max-width: 100%;
+    display:block ;
+}

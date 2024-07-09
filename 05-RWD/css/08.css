@@ -1,0 +1,13 @@
+@media (min-width: 768px){ 
+    .tres-columnas-flex{
+        display: flex;
+        gap: 2rem
+    }
+    .columna{
+        flex:1;
+    } /*
+    esto de abajo es igual a lo de arriba! flex 1 y flex grow son el factor de crecimiento!
+    .columna{
+        flex-grow:1;
+    } */
+}
